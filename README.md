@@ -1,16 +1,40 @@
-# React + Vite
+  * # 🎬 Netflix Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive Netflix UI clone built with modern frontend technologies, featuring a dynamic movie browsing interface, category rows, and a smooth user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo & Testing
+* **Live App URL:** [View Netflix Clone](https://netflix-clone-8ogqh3slc-pragatikatiyar73-2413s-projects.vercel.app)
+* **Demo Admin Credentials (for testing):**
+  * **Email:** `admin@gmail.com`
+  * **Password:** `admin`
+---
 
-## React Compiler
+## 🛠️ Built With
+* **React.js** (Component-based architecture)
+* **Vite** (Next-generation frontend tooling)
+* **JavaScript (ES6+)**
+* **HTML5 & CSS3 / Tailwind CSS**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
+* **Dynamic Movie Rows:** Browse through trending, top-rated, and genre-specific movie categories.
+* **Interactive UI:** Smooth horizontal scrolling, hover previews, and clean modal layouts inspired by Netflix.
+* **Responsive Design:** Optimized layout that adapts seamlessly across mobile devices, tablets, and desktop screens.
+* **Fast Performance:** Powered by Vite for instant Hot Module Replacement (HMR) and optimized production bundling.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📂 Project Structure
+```text
+netflix-clone/
+├── public/         # Static assets and images
+├── src/
+│   ├── components/ # Reusable UI components (Navbar, Row, Banner, etc.)
+│   ├── App.jsx     # Main application component
+│   ├── App.css     # Global styles
+│   └── main.jsx    # Application entry point
+├── package.json    # Project dependencies and scripts
+└── README.md       # Project documentation
